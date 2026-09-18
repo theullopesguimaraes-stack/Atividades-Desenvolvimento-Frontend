@@ -1,0 +1,166 @@
+body {
+    background-color: #f4f4f5;
+}
+
+header {
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 25px;
+    color: #ffffff;
+
+}
+
+div {
+    text-align: center;
+    border-radius: 30px;
+    background-color: #742844;
+    font-size: 75px;
+    border: 3px solid black;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    width: 750px;
+    margin: auto
+}
+
+.resposta {
+    width: 620px;
+    height: 55px;
+    background-color: #7CFF00;
+    color: #000;
+    font-size: 25px;
+    border: 2px solid #111;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.resposta:hover {
+    background-color: rgb(98, 163, 0);
+}
+
+.reset {
+    width: 620px;
+    height: 55px;
+    background-color: #ff0400;
+    color: #000;
+    font-size: 25px;
+    border: 2px solid #111;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.reset:hover {
+    background-color: rgb(161, 0, 0);
+}
+
+.darkmode{
+    background-color: rgb(0, 0, 0);
+    color: rgb(252, 252, 252);
+    border-radius: 30px;
+    font-size: 20px;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    border: 3px solid black;
+}
+
+.cor {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    position: relative;
+    left: -170px;
+}
+
+.cor1 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    position: relative;
+    left: -185px;
+
+}
+
+.input {
+    font-size: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+   
+}
+
+.inputR {
+    font-size: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+
+footer {
+    text-align: center;
+}
+
+.escuro {
+    background-color:#1E1E1E ;
+    color: rgb(212, 212, 212);
+
+}
+
+.escuro .resposta {
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+}
+
+.escuro .reset {
+    background-color: #D9534F;
+    color: rgb(0, 0, 0);
+}
+
+.escuro .cor {
+    color: rgb(217, 217, 217);
+}
+
+.escuro div {
+    background-color: #4A1A2C;
+}
+
+.escuro .input1{
+    background-color: rgb(181, 181, 181);
+     color: rgb(0, 0, 0);
+
+}
+
+.escuro .input2{
+    background-color: rgb(181, 181, 181);
+     color: rgb(0, 0, 0);
+
+}
+
+
+.escuro .resposta:hover {
+    background-color: rgba(0, 103, 0, 0.500);
+}
+
+.escuro .reset:hover {
+    background-color: hsla(0, 100%, 20%, 0.400);
+}
+
+.escuro .darkmode {
+    background-color: rgb(217, 217, 217);
+    color: black;
+}
+
+.escuro header {
+    color: rgb(217, 217, 217);
+}
+
+.escuro h1 {
+     color: rgb(217, 217, 217);
+}

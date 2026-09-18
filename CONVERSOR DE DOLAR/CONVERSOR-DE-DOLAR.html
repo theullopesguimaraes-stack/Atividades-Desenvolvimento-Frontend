@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Dolar</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script type="text/javascript" src="./scripts.js"></script>
+</head>
+<body>
+    <main>
+         <button class="darkmode" type="button" onclick="ModoEscuro()">Modo escuro</button>
+         <br>
+         <br>
+        <div>
+            <header>CONVERSOR DE DÓLAR</header>
+            <h1>Converta valores de USD para BRL</h1>
+            <label class="cor">Valor em Reais(R$):</label>
+            <input class="input" type="number" placeholder="Digite o valor em real aqui">
+            <br>
+            <label class="cor1">Valor Convertido:</label>
+            <input class="inputR" type="text" placeholder="O valor em dolar aparecera" id="resultado" readonly>
+            <br>
+            <button class="resposta" type="button" onclick="FuncaoResposta()">CONVERTER</button>
+            <button class="reset" type="button" onclick="FuncaoReset()">LIMPAR</button>
+        </div>
+        <footer>Feito por: Matheus Lopes<br>
+        Disciplina: Desenvolvimento Front-end</footer>
+    </main>
+</body>
+</html>
