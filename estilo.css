@@ -74,6 +74,10 @@ div {
     border: 3px solid black;
 }
 
+.darkmode:hover {
+    background-color: #353535;
+}
+
 .cor {
     color: rgb(255, 255, 255);
     font-size: 35px;
